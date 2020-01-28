@@ -1,0 +1,80 @@
+* {
+  margin: auto;
+  padding: 1rem;
+  font-family: "Times New Roman";
+}
+html {
+  background-image: url("./Components/moneywall.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.stockInfo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  background-color: #e9be48d7;
+  box-shadow: 1px 1px 3px grey;
+  border-radius: 4%;
+  border: 0.3rem solid black;
+  opacity: 0.9;
+}
+
+.stockInfo p {
+  margin: 5%;
+  font-weight: bold;
+}
+.stockInfo img {
+  border: 0.2rem solid black;
+  padding: 0;
+  opacity: 0.8;
+}
+
+.positive {
+  color: green;
+}
+.negative {
+  color: red;
+}
+.neutral {
+  color: grey;
+  font-style: italic;
+}
+
+button {
+  color: white;
+  background-color: #2b3044;
+  padding: 8px 28px;
+  border-radius: 20px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.searching {
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+  align-self: center;
+  background-color: transparent;
+  color: black;
+}
+.searching label {
+  color: white;
+  background-color: #2b3044;
+  padding: 1rem;
+  border-radius: 20px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: none;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
